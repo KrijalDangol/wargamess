@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background: url(./images/battleground.jpg);
+    background-size: cover;
+}
+#fight-2{
+    margin-left: 70%;
+    margin-bottom: -100px;
+}
+
+#first-character{
+    position: relative;
+    left: 80%;
+    bottom: 350px;
+    
+}
+
+#second-character {
+    margin-top: 5%;
+    position: relative;
+    left: 20px;
+}
+#second-hp{
+    text-align: right;
+    margin-right: 200px;
+    position: relative;
+    /* left: 20px; */
+}
+/* #start-el{
+    text-align: center;
+} */
+#first-hp{
+    position: relative;
+    left: 20px;
+    color: white;
+}
+#ep-one{
+    position: relative;
+    left: 20px;
+    color: yellow;
+}
+
+#critical-el{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    margin-left: 45%;
+    padding: 10px 20px;
+}
+#second-ep{
+    margin-top: -20px;
+}
+button{
+    background: red;
+    border: none;
+}
+.attack-image{
+    width: 90px;
+    height: 70px;
+    border-radius: 50%;
+    background: red;
+}
+#fight-el{
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+    width: 100px;
+}
+.defend-image{
+    width: 90px;
+    height: 70px;
+    border-radius: 50%;
+    background: green;
+}
+#defend-el{
+    background: green;
+    position: relative;
+    bottom: 300px;
+    left: 30px;
+}
+.heal-image{
+    width: 90px;
+    height: 70px;
+    border-radius: 50%;
+}
+#heal-el{
+    background: gold;
+    position: relative;
+    bottom: 200px;
+    right: 120px;
+}
+
+#second-hp{
+    position: relative;
+    bottom: 350px;
+    left: 110px;
+    color: white;
+}
+
+#second-ep{
+    position: relative;
+    left: 1080px;
+    bottom: 330px;
+    color:yellow;
+}
+.attack-image2, .defend-image2, .heal-image2{
+    width: 90px;
+    height: 70px;
+}
+
+.attack-image2{
+    border-radius: 50%;
+    position: relative;
+}
+.defend-image2{
+    border-radius: 50%;
+}
+.heal-image2{
+    border-radius: 50%;
+}
+#fight-2{
+    position: relative;
+    top: 100px;
+    left: 135px;
+}
+#defend-2{
+    position: relative;
+    top: 100px;
+    background: green;
+    left: 150px;
+}
+#heal-2{
+    position: relative;
+    top: 200px;
+    background: yellow;
+}
+a{
+    border: solid 1px grey;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 150px;
+    color: white;
+    background: grey;
+    border-radius: 20px;
+}

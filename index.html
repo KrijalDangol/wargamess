@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> War games</title>
+    <link rel="stylesheet" href="war.css">
+</head>
+
+<body>
+    <!-- <img src="./images/graveyard.jpg" alt=""> -->
+    <!-- <button id="start-el" onclick="start()">START</button> -->
+    <div>
+        <img src="./images/character2.jpg" alt="" id="second-character">
+        <h1 id="first-hp">HP: 100/100</h1>
+        <h2 id="ep-one"> EP: 0/50</h2>
+        <button id="fight-2" onclick="fight1()"><img src="./images/attack" class="attack-image2"></button>
+        <button id="defend-2" onclick="defend1()"> <img src="./images/defend.jpg" class="defend-image2"></button>
+        <button id="heal-2" onclick="heal1()"><img src="./images/heal.jpg" class="heal-image2"></button>
+
+
+
+    </div>
+    <span id="critical-el"> </span>
+    <div><img src="./images/character1.jpg" alt="" id="first-character">
+        <h1 id="second-hp">HP: 100/100</h1>
+        <h2 id="second-ep"> EP: 0/50</h2>
+        <button id="fight-el" onclick="fight()"><img src="./images/attack" class="attack-image" alt=""></button>
+        <button id="defend-el" onclick="defend()"> <img src="./images/defend.jpg" class="defend-image"></button>
+        <button id="heal-el" onclick="heal()"><img src="./images/heal.jpg" class="heal-image"></button>
+    </div>
+    <a href="warSingle.html"> Play Offline</a>
+    <!-- Linking js -->
+    <script src="war.js"></script>
+
+
+
+</body>
+
+</html>
